@@ -1,0 +1,34 @@
+{
+  "name": "og-rescrape",
+  "version": "0.1.0",
+  "description": "Click a button in wp-admin to force an Open Graph rescrape.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "*",
+    "gulp-plumber": "*",
+    "gulp-watch": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "reinstall": " rm -rf node_modules/ && npm i",
+    "start": " gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urre/OG-Rescrape.git"
+  },
+  "keywords": [
+    "og",
+    "open",
+    "graph",
+    "rescrape",
+    "facebook",
+    "tags"
+  ],
+  "author": "Urban Sanden",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/urre/OG-Rescrape/issues"
+  },
+  "homepage": "https://github.com/urre/OG-Rescrape#readme"
+}
